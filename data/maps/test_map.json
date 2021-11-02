@@ -1,0 +1,17 @@
+{
+  "name": "Test Map",
+  "spawn_position": [0, 0],
+  "sectors": [
+    {
+      "id": 0,
+      "area": [-32, -32, 32, 32],
+      "neighbors": [],
+      "decorations": [
+
+      ],
+      "interactions": [
+
+      ]
+    }
+  ]
+}

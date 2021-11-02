@@ -1,10 +1,14 @@
 import os
+import sys
 import typing
 
 root = os.path.dirname(os.path.dirname(__file__))
-asset_dir = root+"/assets"
-data_dir = root+"/data"
-saves_dir = root+"/saves"
+
+
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    base_path = getattr(sys, '_MEIPASS', root)
+    return os.path.join(base_path, relative_path)
 
 
 class StonePathBuilder:

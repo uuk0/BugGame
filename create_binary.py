@@ -14,7 +14,7 @@ subprocess.call(
         "--name",
         "BugGame",
         "--windowed",
-        local+"/__main__.py"
+        local+"/BugGame.spec" if os.path.exists(local+"/BugGame.spec") else local+"/__main__.py"
     ]
 )
 
