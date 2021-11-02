@@ -1,4 +1,5 @@
 import pyglet
+import game.Maps
 
 
 class Window(pyglet.window.Window):
