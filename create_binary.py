@@ -18,3 +18,7 @@ subprocess.call(
     ]
 )
 
+
+if sys.argv[1] == "--run":
+    subprocess.call(["./dist/BugGame.exe"] + sys.argv[2:])
+

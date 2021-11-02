@@ -1,7 +1,8 @@
 import pyglet
+import game.Window
 
 
-win = pyglet.window.Window(caption="Bug-Game")
+window = game.Window.Window()
 
 pyglet.app.run()
 
