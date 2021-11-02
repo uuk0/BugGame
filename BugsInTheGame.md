@@ -19,6 +19,12 @@
 
 
 
+Startup
+-
+
+Pressing ESC will crash the game with an "Internal processing error: Property 'EscapeAction' is not set!"
+
+
 Not implemented bugs
 -
 Random crash at startup, with low probability, with some simple error message
